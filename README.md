@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution ](https://your-solution-url.com)
+- Solution URL: [Solution ](https://github.com/SoulOfMo/3-column-preview-card-component-main.git)
 - Live Site URL: [Live Site ](https://soulofmo.github.io/3-column-preview-card-component-main/)
 
 ## My process

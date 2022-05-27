@@ -67,7 +67,7 @@ p {
 }
 
 .img3 {
-  background-image: url(/images/icon-luxury.svg);
+  background-image: url(./images/icon-luxury.svg);
   background-size: 100%;
   width: 64px;
   height: 40px;

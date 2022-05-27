@@ -2,87 +2,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
 
 /* reset */
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
 /* General */
-body{
+body {
     font-size: 15px;
 }
 
-section{
-    margin: 10% 15%; 
+section {
+    margin: 10% 15%;
     display: flex;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
-    margin: 20px 0px;
+    margin: 35px 0px 25px;
     color: hsl(0, 0%, 95%);
-    font-family: 'Big Shoulders Display', 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
 }
 
-p{
+p {
     line-height: 1.5em;
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
 }
 
-.container1{
-    background-color:hsl(31, 77%, 52%);
+.container1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 5% 5% 0%;
+    border-radius: 5px 0px 0px 5px
+}
+
+.img1 {
+    background-image: url(./images/icon-sedans.svg);
+    background-size: 100%;
+    width: 64px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.container2 {
+    background-color: hsl(184, 100%, 22%);
     padding: 5% 5% 0%;
 }
 
-.container2{
-    background-color:hsl(184, 100%, 22%);
-    padding: 5% 5% 0%;
+.img2 {
+    background-image: url(./images/icon-suvs.svg);
+    background-size: 100%;
+    width: 64px;
+    height: 40px;
+    background-repeat: no-repeat;
 }
 
-.container3{
-    background-color:hsl(179, 100%, 13%);
+.container3 {
+    background-color: hsl(179, 100%, 13%);
     padding: 5% 5% 0%;
+    border-radius: 0px 5px 5px 0px
 }
 
-button{
-    margin: 40px 0px 30px;
+.img3 {
+    background-image: url(./images/icon-luxury.svg);
+    background-size: 100%;
+    width: 64px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+button {
+    margin: 100px 0px 40px;
     border-radius: 30px;
     padding: 10px 25px;
     border: none;
-    background-color:hsla(0, 0%, 100%, 0.75);
-    opacity: 2;
+    background-color: hsl(0deg 0% 100%);
 }
 
-button:active{
+button:active {
     color: hsla(0, 0%, 100%, 0.75);
     background-color: inherit;
     cursor: pointer;
     border: 2px solid hsla(0, 0%, 100%, 0.75);
 }
 
-.btn1{
-  color: hsl(31, 77%, 52%);  
+.btn1 {
+    color: hsl(31, 77%, 52%);
 }
 
-.btn2{
-    color: hsl(184, 100%, 22%);  
+.btn2 {
+    color: hsl(184, 100%, 22%);
 }
 
-.btn3{
-    color: hsl(179, 100%, 13%);  
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn1,
+.btn2,
+.btn3 {
+    font-weight: 700;
 }
 
 /* Mobile Screen */
 
 @media (max-width:375px) {
-    section{
-        display: flex;
+    section {
         flex-direction: column;
     }
 
-    .container1, .container2, .container3{
-        padding: 10% 10% 0%;
+    h1{
+        margin: 25px 0px 25px;
     }
+
+    p {
+        font-size: 13px;
+    }
+
+    .image {
+        background-size: 80%;
+    }
+
+    .container1,
+    .container2,
+    .container3 {
+        padding: 15% 10% 0%;
+    }
+
+    .btn1,
+    .btn2,
+    .btn3 {
+        margin-top: 15px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .container1 {
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .container3 {
+        border-radius: 0px 0px 5px 5px;
+    }
+
 }

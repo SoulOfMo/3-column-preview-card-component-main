@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/Desktop%20View.jpeg)
+![](/images/Desktop%20View.jpeg)
 
 ### Links
 
-- Solution URL: [Solution ](https://github.com/SoulOfMo/3-column-preview-card-component-main.git)
-- Live Site URL: [Live Site ](https://soulofmo.github.io/3-column-preview-card-component-main/)
+- Solution URL: [Solution ](https://your-solution-url.com)
+- Live Site URL: [Live Site ](https://your-live-site-url.com)
 
 ## My process
 
